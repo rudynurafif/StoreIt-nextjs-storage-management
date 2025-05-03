@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/input-otp";
 import Image from "next/image";
 import React, { useState } from "react";
-import { set } from "zod";
 import { Button } from "./ui/button";
 import { sendEmailOTP, verifySecret } from "@/lib/actions/users.action";
 import { useRouter } from "next/navigation";

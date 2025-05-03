@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
@@ -19,7 +18,7 @@ import { Button } from "./ui/button";
 import { signOutUser } from "@/lib/actions/users.action";
 
 interface Props {
-  ownerId: string;
+  $id: string;
   accountId: string;
   fullName: string;
   avatar: string;
